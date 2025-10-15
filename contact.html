@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact Us - Amen Group Company Limited</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="Amen Group Company Limited">
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="agriculture.html">Agriculture</a></li>
+                <li><a href="logistics.html">Logistics</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Get In Touch</h1>
+        <p>We're here to answer your questions and help you find the right solutions for your needs</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Reach out to us through any of the following channels. Our team is ready to assist you with all your agriculture and logistics needs.</p>
+                
+                <div class="info-cards">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Our Location</h3>
+                            <p>Amen Group Company Limited<br>
+                            Kwembe Street<br>
+                            Dar es Salaam, Tanzania</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+255XXXXXXXXX">Mob: +255 759 117 777</a><br>
+                            <a href="tel:+255XXXXXXXXX">Fax: +255 22 292 650</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@amengroup.com">info@amengroup.com</a><br>
+                            <a href="mailto:support@amengroup.com">support@amengroup.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">🌐</div>
+                        <div class="info-content">
+                            <h3>Social Media</h3>
+                            <p>Follow us on social media for updates and news</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <h3>Send Us a Message</h3>
+                <div class="success-message" id="successMessage">
+                    Thank you for your message! We'll get back to you soon.
+                </div>
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Interested In *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="agriculture">Agriculture Services</option>
+                            <option value="logistics">Logistics & Transportation</option>
+                            <option value="both">Both Services</option>
+                            <option value="consultation">Consultation</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="departments-section">
+        <div class="departments-container">
+            <h2 class="section-title">Contact Our Departments</h2>
+            <div class="departments-grid">
+                <div class="department-card">
+                    <div class="dept-icon">🌾</div>
+                    <h3>Agriculture Trading</h3>
+                    <p>For commodity procurement, international sales, quality assurance, and pricing inquiries</p>
+                    <p class="dept-contact">agriculture@amengroup.com</p>
+                </div>
+
+                <div class="department-card">
+                    <div class="dept-icon">🚚</div>
+                    <h3>Logistics Department</h3>
+                    <p>For shipping quotes, tracking, and transportation services</p>
+                    <p class="dept-contact">logistics@amengroup.com</p>
+                </div>
+
+                <div class="department-card">
+                    <div class="dept-icon">💼</div>
+                    <h3>Business Development</h3>
+                    <p>For partnerships, collaborations, and business opportunities</p>
+                    <p class="dept-contact">business@amengroup.com</p>
+                </div>
+
+                <div class="department-card">
+                    <div class="dept-icon">🛠️</div>
+                    <h3>Customer Support</h3>
+                    <p>For general inquiries, complaints, and technical support</p>
+                    <p class="dept-contact">support@amengroup.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Hours -->
+    <section class="hours-section">
+        <div class="hours-container">
+            <h2>Business Hours</h2>
+            <div class="hours-list">
+                <div class="hours-item">
+                    <span class="hours-day">Monday - Friday</span>
+                    <span class="hours-time">8:00 AM - 6:00 PM</span>
+                </div>
+                <div class="hours-item">
+                    <span class="hours-day">Saturday</span>
+                    <span class="hours-time">9:00 AM - 2:00 PM</span>
+                </div>
+                <div class="hours-item">
+                    <span class="hours-day">Sunday</span>
+                    <span class="hours-time">Closed</span>
+                </div>
+                <div class="hours-item">
+                    <span class="hours-day">Public Holidays</span>
+                    <span class="hours-time">Closed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <h2 class="section-title">Find Us</h2>
+        <div class="map-container">
+            <div class="map-placeholder">📍</div>
+            <h3>Amen Group Company Limited</h3>
+            <p>Dar es Salaam, Tanzania</p>
+            <p>Click here to open in Google Maps</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-card">
+                <h3>How do I request a quote?</h3>
+                <p>You can request a quote by filling out the contact form above, calling us directly, or emailing the specific department handling your needs.</p>
+            </div>
+
+            <div class="faq-card">
+                <h3>What areas do you service?</h3>
+                <p>We provide services across all regions of Tanzania, with our main operations based in Dar es Salaam.</p>
+            </div>
+
+            <div class="faq-card">
+                <h3>How quickly do you respond?</h3>
+                <p>We aim to respond to all inquiries within 24 hours during business days. Urgent matters are addressed immediately.</p>
+            </div>
+
+            <div class="faq-card">
+                <h3>Do you offer emergency services?</h3>
+                <p>Yes, we provide 24/7 emergency logistics support for urgent deliveries and agricultural consultations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Amen Group</h3>
+                <p>Leading provider of agriculture and logistics solutions in Tanzania.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="agriculture.html">Agriculture</a></li>
+                    <li><a href="logistics.html">Logistics</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="agriculture.html">Commodity Trading</a></li>
+                    <li><a href="agriculture.html">Quality Assurance</a></li>
+                    <li><a href="logistics.html">Transportation</a></li>
+                    <li><a href="logistics.html">Warehousing</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li>📍 Dar es Salaam, Tanzania</li>
+                    <li>📞 +255 759 117 777</li>
+                    <li>✉️ info@amengroup.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Amen Group Company Limited. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
