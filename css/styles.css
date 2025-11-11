@@ -666,15 +666,20 @@ nav {
 }
 
 .process-steps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
     margin-top: 3rem;
+    flex-wrap: wrap;
 }
 
 .process-step {
     text-align: center;
     position: relative;
+    flex: 1;
+    min-width: 150px;
+    max-width: 200px;
 }
 
 .step-number {
@@ -1391,7 +1396,12 @@ footer {
     }
 
     .process-steps {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .process-step {
+        max-width: 100%;
     }
 
     .coverage-list {
