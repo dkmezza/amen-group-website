@@ -257,6 +257,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 const statNumber = entry.target.querySelector('.stat-number');
                 if (statNumber) {
                     const text = statNumber.textContent.trim();
+                    
+                    // Skip animation for text-based stats like "24/7"
+                    if (text.includes('/') || isNaN(parseInt(text.replace(/\D/g, '')))) {
+                        entry.target.classList.add('counted');
+                        return;
+                    }
+                    
                     const number = parseInt(text.replace(/\D/g, ''));
                     const suffix = text.replace(/[\d\s]/g, '');
                     
