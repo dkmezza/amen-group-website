@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // ===================================
     console.log('%c🌾 Amen Group Company Limited 🚚', 'color: #0078D4; font-size: 20px; font-weight: bold;');
     console.log('%cWebsite loaded successfully!', 'color: #F26522; font-size: 14px;');
-    console.log('%cFor support: info@amengroup.co.tz', 'color: #3D3D3D; font-size: 12px;');
+    console.log('%cFor support: info@amengrouplimited.com', 'color: #3D3D3D; font-size: 12px;');
 
 });
 
